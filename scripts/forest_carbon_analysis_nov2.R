@@ -1,6 +1,6 @@
 inventory <- read.csv("./data/bagmati/bagmati_raw_inventory.csv")
 
-1. INPUT AND OUTPUT ------------------------------------------
+#1. INPUT AND OUTPUT ------------------------------------------
 file_path <- "data/bagmati/bagmati_raw_inventory.csv"
 if (!file.exists(file_path)) file_path <- "bagmati_raw_inventory.csv"
 if (!file.exists(file_path)) stop("CSV not found. Check the file location!")
